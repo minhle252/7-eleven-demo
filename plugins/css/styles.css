@@ -1,0 +1,136 @@
+.header {
+  background-color: #f5811f;
+  height: 94px;
+  width: 100%;
+}
+
+.header__navbar {
+  margin: 22px 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar-item {
+  display: inline-block;
+  padding: 0px 22px 0px 0px;
+}
+.header__navbar-item-link {
+  line-height: 68px;
+}
+.header__navbar-item-link:hover {
+  color: rgb(241, 231, 231);
+}
+.header__navbar-item-link--lang {
+  line-height: 68px;
+  padding: 3px 12px 5px;
+}
+.logo {
+  float: none;
+  max-height: 68px;
+  display: block;
+}
+.article__section--background {
+  background-image: linear-gradient(0, #ffaa54, #f5811f);
+  padding: 15px 0px;
+}
+.article__section {
+  text-align: center;
+}
+.header__navbar-item-link {
+  color: var(--white-color);
+}
+.header__navbar-item-link .article__section-item-content,
+.article__section-item-link {
+  list-style: border;
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+}
+.header__navbar-item-link,
+.article__section-item-link,
+.article__section-card-time {
+  font-size: 14px;
+}
+.article__section-item {
+  margin: 30px 0px 40px 0px;
+}
+.article__section-item-content {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.header__navbar-item-link--lang,
+.article__section-item-link {
+  border: 1px solid var(--white-color);
+  border-radius: 20px;
+  color: var(--white-color);
+}
+.article__section-item-link {
+  margin: 0px 0px 0px 15px;
+  padding: 10px 50px;
+}
+.article__section-item-img {
+  border-radius: 20px;
+  width: 900px;
+  max-width: 90%;
+}
+.article__section-card {
+  box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.article__section-card-body,
+.article__section-card-img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.article__section-event {
+  font-size: 27px;
+}
+.article__section-card-title,
+.article__section-card-content,
+.article__section-card-read,
+.article__section-card-time {
+  text-align: start;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.article__section-card-title {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.article__section-card-time {
+  font-size: 14px;
+  color: #666666;
+}
+
+.article__section-card-read {
+  font-size: 15px;
+}
+.article__section-card-read--orange,
+.article__section-event {
+  color: #f5811f;
+  font-weight: 400;
+}
+.article__section-card-item {
+  padding-bottom: 25px;
+}
+
+.article__section-card-item-drink {
+  font-size: 1.5rem;
+  font-weight: 450;
+  background-color: #f5811f;
+  padding: 8px 50px;
+  border-top: 1px solid #333;
+  border-radius: 20px;
+}
+.article__section-card-item-drink:hover {
+  background-color: rgb(241, 231, 231);
+}
+/* @media (max-width: 991px){
+  .article__section-event{
+
+  }
+
+} */

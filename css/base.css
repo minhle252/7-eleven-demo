@@ -1,0 +1,206 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+}
+* {
+  box-sizing: initial;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 1.6rem;
+}
+
+.grid {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid__full-width {
+  width: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.text-center {
+  text-align: center;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mx-25 {
+  margin: 25px 0px;
+}
+.px-25 {
+  padding: 25px 0px;
+}
+.mx-50 {
+  margin: 50px 0px;
+}
+.justify-content-center {
+  justify-content: center;
+}
+/* col */
+.grid__col-md-3,
+.grid__col-lg-3 {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 25%;
+}
+.grid__col-lg-5,
+.grid__col-md-5 {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 41.6667%;
+}
+.grid__col-12 {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+/* footer */
+.footer-widgets {
+  height: 132px;
+  background-color: #2a3940;
+}
+.footer-bottom {
+  color: #fff;
+  padding: 15px 0px 5px;
+
+  background-color: #000000;
+}
+
+.footer-info-content {
+  font-size: 1.2rem;
+}
+.footer-law {
+  text-align: end;
+}
+
+.footer-menu-item {
+  text-align: end;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 1.1rem;
+}
+.footer-menu-item-link {
+  color: var(--white-color);
+}
+/* creen lg */
+@media (max-width: 991px) {
+  .header__navbar-list {
+    display: none;
+  }
+  .grid {
+    width: 707px;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .grid__col-lg-3,
+  .grid__col-lg-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  .footer-law,
+  .footer-bottom-row {
+    text-align: center;
+  }
+  .footer-menu-item {
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 1.1rem;
+  }
+  .mt-25 {
+    margin-top: 25px;
+  }
+  .logo {
+    float: none;
+    max-height: 45px;
+    display: block;
+  }
+  .header__navbar-item-link--lang {
+    line-height: 45px;
+    padding: 3px 12px 5px;
+  }
+}
+.animation-left {
+  animation: imgFromLeft ease 1.5s forwards;
+}
+.animation-top {
+  animation: imgFromTop ease-in 0.5s forwards;
+}
+.animation-bottom {
+  animation: imgFromBottom ease 1s forwards;
+}
+.animation-opacity {
+  animation: opacityPanel ease 2s forwards;
+}
+@keyframes opacityPanel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes imgFromLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes imgFromTop {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes imgFromBottom {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* creen md */
+@media (max-width: 575px) {
+  .article__section-item-link {
+    display: block;
+    margin-left: 20%;
+    margin-top: 20px;
+    max-width: 30%;
+  }
+  .grid__col-md-3,
+  .grid__col-md-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+}

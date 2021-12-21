@@ -1,0 +1,145 @@
+.bg-productService {
+  background: linear-gradient(
+      90deg,
+      rgba(11, 114, 71, 0.5),
+      rgba(74, 218, 146, 0.5)
+    ),
+    url(../../images/bg-san-pham-dich-vu.jpg) no-repeat;
+  background-size: 100% 450px;
+  height: 450px;
+}
+.text-on-background {
+  font-size: 4rem;
+  color: rgb(240, 232, 232);
+  line-height: 450px;
+  font-weight: 750;
+}
+.article-food,
+.article__section-productss,
+.article-products {
+  background: rgb(231, 227, 227);
+}
+.article__section-products {
+  font-size: 2.4rem;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+.article__section-card {
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.article__section-card-body,
+.article__section-card-body-fresh-beverages {
+  background-color: white;
+  border-radius: 10px;
+  height: 250px;
+  width: 100%;
+}
+.article__section-breakfast {
+  background: linear-gradient(
+      90deg,
+      rgba(164, 236, 230, 0.7),
+      rgba(191, 240, 145, 0.7)
+    ),
+    url(../../images/bg-an-sang.jpg) no-repeat;
+}
+
+.article__section-energy-boost {
+  background: linear-gradient(
+      90deg,
+      rgba(212, 60, 14, 0.7),
+      rgba(230, 130, 73, 0.7)
+    ),
+    url(../../images/bg-bo-sung-nang-luong.jpg) no-repeat;
+}
+.article__section-lunch {
+  background: linear-gradient(
+      90deg,
+      rgba(236, 175, 44, 0.7),
+      rgba(236, 175, 44, 0.7)
+    ),
+    url(../../images/bg-bua-an-trua.jpg) no-repeat;
+}
+.article__section-snack {
+  background: linear-gradient(
+      90deg,
+      rgba(209, 97, 32, 0.7),
+      rgba(211, 149, 229, 0.7)
+    ),
+    url(../../images/bg-hoan-hon.jpg) no-repeat;
+}
+.article__section-dinner {
+  background: linear-gradient(
+      90deg,
+      rgba(97, 138, 214, 0.7),
+      rgba(97, 138, 214, 0.7)
+    ),
+    url(../../images/bg-bua-an-toi.jpg) no-repeat;
+}
+.article__section-late-night-munchies {
+  background: linear-gradient(
+      90deg,
+      rgba(174, 32, 209, 0.5),
+      rgba(157, 96, 172, 0.5)
+    ),
+    url(../../images/bg-bua-an-toi.jpg) no-repeat;
+}
+.article__section-breakfast,
+.article__section-energy-boost,
+.article__section-lunch,
+.article__section-snack,
+.article__section-dinner,
+.article__section-late-night-munchies {
+  background-size: 100% 100px;
+  border-radius: 10px 10px 0px 0px;
+  height: 90px;
+}
+.article__section-card-title {
+  font-size: 1.7rem;
+  line-height: normal;
+  text-align: center;
+  padding: 30px 15px;
+  color: rgb(248, 240, 240);
+  font-weight: 600;
+}
+.article__section-card-content {
+  text-align: start;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/*  */
+
+.article__section-card-body-fresh-beverages {
+  border: 1px solid #e0e0e0;
+}
+.article__section-fresh-beverage {
+  font-size: 5rem;
+}
+.article__section-card-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.article__section-card-fresh-beverages-name {
+  font-family: lato, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+.article__section-slurpee,
+.article__section-coffe,
+.article__section-tea {
+  width: 100%;
+}
+.article__section-products--white {
+  background-color: #fff;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+.article__section-products-img {
+  height: 50px;
+}

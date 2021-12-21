@@ -1,0 +1,31 @@
+.header {
+  height: 94px;
+  width: 100%;
+}
+
+.header__navbar {
+  margin: 22px 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar-item {
+  display: inline-block;
+  padding: 0px 22px 0px 0px;
+}
+.header__navbar-item-link {
+  line-height: 68px;
+  font-size: 14px;
+  list-style: border;
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+}
+.header__navbar-item-link:hover {
+  color: rgb(241, 231, 231);
+}
+
+.logo {
+  float: none;
+  max-height: 68px;
+  display: block;
+}
